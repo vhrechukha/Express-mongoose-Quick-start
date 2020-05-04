@@ -1,4 +1,4 @@
-# Weather Forecast :speak_no_evil:
+# Quick start project :speak_no_evil:
 
 Quick start project with express, mongoose, @hapi/joi validation, test, configured eslint and editorconfig.
 
