@@ -4,7 +4,9 @@
   "main": "./src/server/index.js",
   "scripts": {
     "start": "node src/server/index.js",
-    "test": "npx mocha ./__test__ --exit"
+    "test": "npx mocha ./__test__ --exit",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@hapi/joi": "17.1.0",
@@ -18,10 +20,11 @@
     "express": "4.16.2",
     "helmet": "^3.22.0",
     "migrate-mongo": "^7.1.0",
-    "mocha": "7.1.0",
+    "mocha": "7.1.1",
     "mongoose": "5.7.5",
     "supertest": "4.0.2",
-    "xlsx": "^0.15.6"
+    "xlsx": "^0.15.6",
+    "snyk": "^1.324.0"
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.1.0",
@@ -40,5 +43,6 @@
     "url": "https://github.com/crzdvl?tab=repositories"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
