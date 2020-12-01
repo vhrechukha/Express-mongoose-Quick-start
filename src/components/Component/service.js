@@ -1,4 +1,4 @@
-const BooksModel = require('./model');
+const SomeModel = require('./model');
 
 /**
  * @method getSomeData
@@ -6,7 +6,7 @@ const BooksModel = require('./model');
  * @returns {any}
  */
 function getSomeData() {
-    return BooksModel.find({}).exec();
+    return SomeModel.find({}).exec();
 }
 
 module.exports = {
