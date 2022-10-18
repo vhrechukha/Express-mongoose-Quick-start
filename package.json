@@ -20,7 +20,7 @@
     "express": "4.16.2",
     "helmet": "^3.22.0",
     "migrate-mongo": "^7.1.0",
-    "mocha": "7.1.1",
+    "mocha": "9.2.2",
     "mongoose": "5.7.5",
     "supertest": "4.0.2",
     "xlsx": "^0.15.6",
