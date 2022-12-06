@@ -23,7 +23,7 @@
     "mocha": "7.1.1",
     "mongoose": "5.7.5",
     "supertest": "4.0.2",
-    "xlsx": "^0.15.6",
+    "xlsx": "^0.17.0",
     "snyk": "^1.1058.0"
   },
   "devDependencies": {
